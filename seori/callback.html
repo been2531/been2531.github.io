@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Seori login callback</title></head>
+<body style="font-family:sans-serif;max-width:640px;margin:40px auto;padding:0 16px">
+<h1>Login complete</h1><p>Copy this code and paste it into the secure field Grok Bot gave you:</p>
+<textarea id="c" style="width:100%;height:120px" readonly></textarea>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').value=p.get('code')||p.get('error_description')||'no code';</script>
+</body></html>
